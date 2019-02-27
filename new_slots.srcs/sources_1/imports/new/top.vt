@@ -1,0 +1,57 @@
+`timescale 1ns/1ps
+`include "top.v"
+`include "alu.v"        
+`include "dff.v"
+`include "leftshift2.v"
+`include "mux4.v"       
+`include "rom.v"
+`include "button.v"
+`include "display.v"
+`include "pc.v"
+`include "signextend.v"
+`include "controller.v" 
+`include "mips.v"
+`include "ram.v"
+`include "datapath.v"
+`include "exmemory.v"
+`include "mux2.v"
+`include "regfile.v"
+module top_tb ();
+    reg clk, reset;
+    wire [15:0] leds;
+    wire [3:0] disp_sel;
+    wire [7:0] disp_dig;
+    reg  btn_l, btn_r;
+    top _top(clk, reset,  btn_l, btn_r, leds, disp_sel, disp_dig);
+    initial 
+    begin
+        $dumpfile("ttop.vcd");
+        $dumpvars(0, top_tb);
+    end
+    always #5
+        clk = ~clk;
+
+    initial begin
+        //$dumpvars(0, _top);
+        clk = 0;
+        reset = 0;
+        btn_l = 0;
+        btn_r = 0;
+        # 100 reset = 1;
+        # 200 reset = 0;
+        # 5000 btn_l = 1;
+        # 6000 begin
+            btn_l = 0;
+        end
+        //# 100 btn_r = 1;
+        //# 10 btn_r = 0;
+
+        # 160000000 $finish;
+   end
+        
+
+
+
+
+
+endmodule // top_tb

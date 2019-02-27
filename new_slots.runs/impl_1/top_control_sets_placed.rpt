@@ -1,0 +1,111 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jul 13 13:47:41 2018
+| Host         : DESKTOP-0DL4PS8 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    46 |
+| Unused register locations in slices containing registers |    26 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|    16+ |           45 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             206 |           62 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             414 |           64 |
+| Yes          | No                    | No                     |            1984 |          394 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             178 |           37 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+---------------------------------------------------+---------------------------------------------------+------------------+----------------+
+|         Clock Signal         |                   Enable Signal                   |                  Set/Reset Signal                 | Slice Load Count | Bel Load Count |
++------------------------------+---------------------------------------------------+---------------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG               | btn_l_IBUF                                        | _mips/_datapath/mips_reg/_btn/IOState[0]_i_1_n_2  |                1 |              2 |
+|  clk_IBUF_BUFG               | _mips/_alu/E[0]                                   | reset_IBUF                                        |               10 |             32 |
+|  _mips/_controller/nextState |                                                   |                                                   |                7 |             34 |
+|  clk_IBUF_BUFG               |                                                   |                                                   |               14 |             44 |
+|  clk_IBUF_BUFG               |                                                   | _mips/_datapath/mips_reg/dis/selcnt_1[31]_i_1_n_2 |                8 |             62 |
+|  clk_IBUF_BUFG               |                                                   | _mips/_datapath/mips_reg/dis/selcnt_2[31]_i_1_n_2 |                8 |             62 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[22][31][0] |                                                   |               19 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[31][31][0] |                                                   |               17 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[20][31][0] |                                                   |                7 |             64 |
+|  n_1_1624_BUFG               |                                                   |                                                   |               21 |             64 |
+|  n_0_394_BUFG                |                                                   |                                                   |               20 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[23][0]     | _mips/_controller/MEM_reg[23][31]                 |               13 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[10][31][0] |                                                   |               20 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/E[0]               |                                                   |               20 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[15][31][0] |                                                   |               11 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[27][31][0] |                                                   |               11 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[26][31][0] |                                                   |               13 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[29][31][0] |                                                   |               11 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[13][31][0] |                                                   |               13 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[11][31][0] |                                                   |               14 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[19][31][0] |                                                   |                8 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[30][31][0] |                                                   |               11 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[18][31][0] |                                                   |               13 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[21][31][0] |                                                   |                7 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[1][31][0]  |                                                   |                9 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[3][31][0]  |                                                   |               10 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[25][31][0] |                                                   |               14 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[6][31][0]  |                                                   |               11 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[12][31][0] |                                                   |                7 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[28][31][0] |                                                   |               11 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[7][31][0]  |                                                   |               19 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[9][31][0]  |                                                   |               16 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[24][31][0] |                                                   |               18 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[2][31][0]  |                                                   |               11 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[16][31][0] |                                                   |               15 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[17][31][0] |                                                   |               10 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[4][31][0]  |                                                   |               11 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[8][31][0]  |                                                   |               12 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[5][31][0]  |                                                   |               12 |             64 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_instr_reg/MEM_reg[14][31][0] |                                                   |               13 |             64 |
+|  clk_IBUF_BUFG               | _mips/_controller/out[0]                          | reset_IBUF                                        |               13 |             80 |
+|  clk_IBUF_BUFG               | _mips/_controller/q_reg[16]_0                     |                                                   |               32 |            256 |
+|  clk_IBUF_BUFG               | _mips/_controller/q_reg[16]                       |                                                   |               32 |            256 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_aluresult_reg/q_reg[16]_0    |                                                   |               32 |            256 |
+|  clk_IBUF_BUFG               | _mips/_datapath/mips_aluresult_reg/q_reg[16]_1    |                                                   |               32 |            256 |
+|  clk_IBUF_BUFG               |                                                   | reset_IBUF                                        |               48 |            290 |
++------------------------------+---------------------------------------------------+---------------------------------------------------+------------------+----------------+
+
+

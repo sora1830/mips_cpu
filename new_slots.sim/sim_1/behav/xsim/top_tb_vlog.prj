@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../new_slots.srcs/sources_1/imports/new/mips/alu/alu.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/exmemory/button.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/mips/controller/controller.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/mips/datapath/datapath.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/mips/datapath/misc/dff.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/exmemory/display.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/exmemory/exmemory.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/mips/datapath/misc/leftshift2.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/mips/mips.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/mips/datapath/misc/mux2.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/mips/datapath/misc/mux4.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/mips/datapath/pc.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/exmemory/ram.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/mips/datapath/regfile.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/exmemory/rom.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/mips/datapath/misc/signextend.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

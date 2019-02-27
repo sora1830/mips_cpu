@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../new_slots.srcs/sources_1/imports/new/exmemory/button.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/exmemory/display.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/exmemory/ram.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/exmemory/rom.v" \
+"../../../../new_slots.srcs/sources_1/imports/new/exmemory/exmemory.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

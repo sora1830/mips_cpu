@@ -1,0 +1,22 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/exmemory/button.v,1531444329,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/controller/controller.v,,button,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/exmemory/display.v,1531456468,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/exmemory/exmemory.v,,display,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/exmemory/exmemory.v,1531413127,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/misc/leftshift2.v,,exmemory,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/exmemory/ram.v,1531361015,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/regfile.v,,ram,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/exmemory/rom.v,1531452360,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/misc/signextend.v,,rom,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/alu/alu.v,1531333638,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/exmemory/button.v,,alu,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/controller/controller.v,1531333612,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/datapath.v,,controller,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/datapath.v,1531413356,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/misc/dff.v,,datapath,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/misc/dff.v,1469281822,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/exmemory/display.v,,dff,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/misc/leftshift2.v,1469279994,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/mips.v,,leftshift2,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/misc/mux2.v,1469280000,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/misc/mux4.v,,mux2,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/misc/mux4.v,1469280004,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/pc.v,,mux4,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/misc/signextend.v,1469280010,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/top.v,,signextend,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/pc.v,1469307578,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/exmemory/ram.v,,PC,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/regfile.v,1531457492,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/exmemory/rom.v,,regfile,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/mips.v,1531414532,verilog,,C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/mips/datapath/misc/mux2.v,,mips,,,,,,,,
+C:/Users/MUIMI/Desktop/LXProgectTest/new_slots/new_slots.srcs/sources_1/imports/new/top.v,1531458410,verilog,,,,top;top_tb,,,,,,,,
